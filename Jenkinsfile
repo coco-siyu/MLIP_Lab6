@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                source /home/team05/mlip/bin/activate
+                source mlip/bin/activate
                 # command to run pytest
                 pytest
                 echo 'pytest not runned'
